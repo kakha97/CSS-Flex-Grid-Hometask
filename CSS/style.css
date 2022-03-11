@@ -46,16 +46,13 @@ section {
     margin-top: 25px;
 }
 .article1 {
-    text-align: center;
-    color: var(--articlecolor);
-    margin-top: 25px;
+    color: var(--ArticleSecendColor);
     font-family: var(--SansProfont);
     line-height: 22px;
+    margin-left: 150px;
 }
 .article2 {
-    text-align: center;
-    color: var(--articlecolor);
-    margin-top: 20px;
+    color: var(--ArticleSecendColor);
     font-family: var(--SansProfont);
     line-height: 22px;
 }
@@ -145,4 +142,10 @@ footer {
     color: var(--addresscolor);
     font-family: var(--SansProfont);
     margin-left: 140px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 83px;
+    margin-top: 30px;
 }
