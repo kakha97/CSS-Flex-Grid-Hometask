@@ -114,38 +114,50 @@ footer {
     height: 170px;
 }
 .sml-logo {
-    margin-left: 145px;
-    margin-top: 19px;
+    display: inline-block;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 .footer-p1 {
     display: inline-block;
     letter-spacing: 0.2em;
     color: var(--lettercolor);
     font-family: var(--SansProfont);
-    padding-left: 16px;
+    margin-left: 36px;
     font-size: 18px;
+    grid-column-start: 1;
+    grid-row-start: 1;
 }
 .footer-address {
     color: var(--addresscolor);
     font-family: var(--SansProfont);
-    margin-top: 12px;
-    margin-left: 140px;
     font-style: normal;
+    grid-column-start: 3;
+    grid-row-start: 1;
 }
 .footer-email {
     color: var(--addresscolor);
     font-family: var(--SansProfont);
-    margin-left: 140px;
     text-decoration: none;
+    grid-column-start: 3;
+    grid-row-start: 2;
 }
 .footer-p2 {
     color: var(--addresscolor);
     font-family: var(--SansProfont);
-    margin-left: 140px;
+    grid-column: 6 / 8;
+    grid-row-start: 2;
 }
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 83px;
     margin-top: 30px;
+}
+.grid-footer {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    height: 170px;
+    padding: 40px 30px 0 155px;
 }
