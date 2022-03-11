@@ -1,6 +1,6 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 .nav-bar-ul-li a{
@@ -23,17 +23,13 @@
     letter-spacing: 0.1em;
     color: var(--lettercolor);
     text-decoration: none;
-    margin-left: 150px;
 }
-.nav-bar {
-    padding-right: 365px;
-}
-/* Uncomment belowe lines and view "hover line */
-/* .header a {
+
+.nav-bar-ul-li a {
     position: relative;
 }
 
-.header a:after{
+.nav-bar-ul-li a:after{
     content: "";
     position: absolute;
     background-color:#FFFFFF;
@@ -43,6 +39,6 @@
     bottom: -6px;
 }
 
-.header a:hover:after {
+.nav-bar-ul-li a:hover:after {
     width: 100%;
-} */
+}

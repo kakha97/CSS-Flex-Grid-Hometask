@@ -57,7 +57,6 @@ section {
     color: var(--ArticleSecendColor);
     font-family: var(--SansProfont);
     line-height: 22px;
-    margin-left: 150px;
 }
 .article2 {
     color: var(--ArticleSecendColor);
@@ -157,10 +156,11 @@ footer {
     grid-row-start: 2;
 }
 .grid-container {
+    width: 900px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 83px;
-    margin-top: 30px;
+    margin: 30px auto 0;
 }
 .grid-footer {
     display: grid;
